@@ -1,0 +1,99 @@
+.header {
+    background-color: #fbfbfb;
+
+}
+
+
+.navbar {
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.text-white {
+    font-family: "Raleway";
+}
+
+.custom-input {
+border: 1px solid #DADADA;
+box-sizing: border-box;
+border-radius: 1px;
+padding: 14px 40px;
+
+}
+
+
+
+@media (min-width: 1300px) {
+
+    
+
+    .mobile {
+        display: none;
+    }
+
+    .smartphone {
+        display: none;
+    }
+
+    
+
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .tablet {
+        
+        display: none;
+    }
+     
+    .form-inline {
+        justify-content: center;
+    }
+
+.desktop {
+    display: none;
+}
+
+
+    
+}
+
+@media (width: 768px) {
+
+.smartphone {
+    display: none;
+}
+
+.desktop {
+    display: none;
+}
+
+}
+
+@media (width: 1024px) {
+    .desktop {
+        display: none;
+    }
+
+    .smartphone {
+        display: none;
+    }
+}
+
+
+@media (min-width: 300px) and (max-width: 700px) {
+
+    .laptop {
+        display: none;
+    }
+}
+
+
+@media (min-width: 700px) and (max-width: 2000px) {
+    .phone {
+        display: none;
+    }
+}
+
